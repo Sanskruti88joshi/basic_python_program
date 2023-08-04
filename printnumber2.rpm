@@ -1,0 +1,4 @@
+#print 1 to 5 numbers(using for loop).
+for i in range(1,6):
+    print(i)
+    
