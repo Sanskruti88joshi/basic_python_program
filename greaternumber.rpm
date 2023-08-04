@@ -1,0 +1,14 @@
+#accept three numbers & find greater number.
+a=int(input("enter first number="))
+b=int(input("enter second number="))
+c=int(input("enter thrid number="))
+if a>b and a>c:
+    print("greater number=",a)
+elif b>a and b>c:
+    print("greater number=",b)
+elif c>a and c>b:
+    print("greater number=",c)
+else:
+    print("numbers are same")
+    
+
